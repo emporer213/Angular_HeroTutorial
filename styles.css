@@ -27,6 +27,7 @@ img {
     padding: 0;
     overflow: hidden;
     background-color: lightgrey;
+
 }
 
 #Navigation li a{
@@ -34,6 +35,9 @@ img {
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #9e7117;
+
 }
 
 #Navigation li{
@@ -41,5 +45,9 @@ img {
 }
 
 #Navigation li a:hover{
-    background-color: darkslateblue;
+    background-color: #3f62ba;
+}
+
+.active {
+    background-color: #183563;
 }
